@@ -1,5 +1,5 @@
 class Student
-  attr_accessor :name, :album, :id
+  attr_accessor :name, :album
   attr_reader :id
 
   def initialize(name, album, id=nil)
