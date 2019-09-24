@@ -31,6 +31,7 @@ class Student
     sql =  <<-SQL
 
     SQL
+  DB[:conn].execute(sql)
 
 
 
